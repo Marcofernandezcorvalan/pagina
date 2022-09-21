@@ -114,6 +114,7 @@ main {
     min-width: 500px;
     font-weight: 600;
     color: #d0d0d0;
+    text-align: left;
 }
 
 .heroInfo p {
