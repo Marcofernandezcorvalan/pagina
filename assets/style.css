@@ -69,7 +69,6 @@ header {
 .carrito {
     height: 35px;
     padding: 3px 20px ;
-    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -87,6 +86,8 @@ main {
     flex-direction: column;
 }
 
+/* Hero */
+
 .hero {
     margin-top: 100px;
     padding: 70px 0px;
@@ -96,12 +97,15 @@ main {
     align-items: center;
 }
 
+/* HeroInfo */
+
 .heroInfo {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 50%;
     margin-left: 100px;
+    text-align: justify;
 }
 
 .heroInfo h1 {
@@ -189,4 +193,46 @@ main {
 .info p span {
     font-weight: 900;
     color: #fff;
+}
+
+/* Marcas Cards */
+
+.sectionMarcas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.marcasCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 0;
+}
+
+.marcas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 30%;
+    background: #000000;
+    border-radius: 10px;
+}
+
+.marcas img{
+    height: 50%;
+    width: 70%;
+    cursor: pointer;
+}
+
+.sectionMarcas h2 {
+    font-size: 20px;
+    margin: 40px 0px 10px 0px;    
 }
