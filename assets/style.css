@@ -17,7 +17,7 @@ header {
     background: #373B44;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left,rgb(4, 4, 4),#185dca ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    height: 50px;
+    height: 40px;
     justify-content: space-between;
     align-items: center; 
     padding: 0px 40px 0px 40px ;  
@@ -29,8 +29,8 @@ header {
 /* Logo */
 
 .logo {
-    height: 100%;
-    margin-left: 40px;
+    height: 110%;
+    margin-left: 35px;
 }
 
 /* Nav */
@@ -51,11 +51,11 @@ header {
 
 .navList {
     gap: 45px;
-    margin-left: 330px;
+    margin-left: 380px;
 }
 
 .navList a {
-    color: rgb(255, 255, 255);
+    color: #d0d0d0;
     font-size: 12px;
 }
 
@@ -67,9 +67,10 @@ header {
 /* Carrito Icono */
 
 .carrito {
-    height: 35px;
+    height: 30px;
     padding: 3px 20px ;
     cursor: pointer;
+    margin-right: 20px;
 }
 
 /* main */
@@ -203,18 +204,18 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 80px;
+    gap: 35px;
 }
 
 .marcasCont {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 250px;
     width: 100%;
     flex-wrap: wrap;
     gap: 40px;
-    margin: 0;
 }
 
 .marcas {
@@ -224,7 +225,7 @@ main {
     height: 200px;
     width: 30%;
     background: #000000;
-    border-radius: 10px;
+    border-radius: 40px;
 }
 
 .marcas img{
@@ -234,6 +235,6 @@ main {
 }
 
 .sectionMarcas h2 {
-    font-size: 20px;
-    margin: 40px 0px 10px 0px;    
+    font-size: 20px;   
+    color: #d0d0d0;
 }
