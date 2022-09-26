@@ -66,7 +66,69 @@
     }
 
     .marcas img {
-        width: 60%;
+        height: 30%;
     }
 
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 0px;
+    }
+
+    .navList {
+        gap: 30px;
+    }
+
+
+    .marcasCont {
+        height: 200px;
+    }
+
+    .marcas {
+        height: 200px;
+        width: 180px;
+    }  
+    
+    .marcas img {
+        height: 30%;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .navList a {
+        font-size: 10px;
+    }
+
+    .navList a:hover {
+        font-size: 11px;
+    }
+
+    .info p {
+        width: 110%;
+    }
+
+    .sectionMarcas {
+        margin-top: 30px;
+        gap: 40px;
+    }
+
+    .marcasCont {
+        margin-top: 10px;
+        flex-direction: column;
+        gap: 10px;
+        height: 100px;
+        padding: 0px 40px 0px 40px;
+    }
+
+    .marcas {
+        width: 30%;
+        border-radius:10px;
+    }
+
+    .marcas img {
+        width: 50%;
+        height: 40%;
+    }
 }
