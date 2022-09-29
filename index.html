@@ -16,12 +16,15 @@
   <body>
     <!-- header -->
     <header>
-      <img
-        class="logo"
-        src="/assets/img/90a649b699483240cac510c7b54adf8f.png"
-        alt="Logo de Logitech"
-      />
+      <img class="logo" src="/assets/img/90a649b699483240cac510c7b54adf8f.png" alt="Logo Logi" />
+      <!-- Nav  -->
       <nav class="nav">
+        <!-- menu Hamburguesa -->
+        <label for="menuToggle" class="menuLabel">
+          <img src="/assets/img/menuH.png" alt="Menu" />
+        </label>
+        <input type="checkbox" id="menuToggle" />
+        <!-- Nav List  -->
         <ul class="navList">
           <li><a href="#">Inicio</a></li>
           <li><a href="#">Servicios</a></li>
@@ -29,11 +32,100 @@
           <li><a href="#">Stock</a></li>
           <li><a href="#">Contacto</a></li>
         </ul>
+        <!-- cart Label -->
+        <label for="cartToggle" class="cartLabel">
+          <img src="assets/img/pngegg.png" alt="carrito" class="carrito" />
+        </label>
+        <input type="checkbox" id="cartToggle" />
+        <!-- cart -->
+        <div class="cart">
+          <h2>Tus Compras</h2>
+          <!-- cart Item  -->
+          <div class="cartItem">
+            <img src="/assets/img/webcamlogi.png" alt="webcam" />
+            <div class="itemInfo">
+              <h3 class="itemTitle">WebCam Logitech</h3>
+              <p class="itemP">Precio:</p>
+              <span class="itemPrecio">$5000</span>
+            </div>
+            <div class="itemCantidad">
+              <span class="cantidadNum rest">-</span>
+              <span class="cantidadNum">1</span>
+              <span class="cantidadNum sum">+</span>
+            </div>
+          </div>
+          <!-- cart Item  -->
+          <div class="cartItem">
+            <img src="/assets/img/aurisAstro.png" alt="webcam" />
+            <div class="itemInfo">
+              <h3 class="itemTitle">Auriculares Astro</h3>
+              <p class="itemP">Precio:</p>
+              <span class="itemPrecio">$5000</span>
+            </div>
+            <div class="itemCantidad">
+              <span class="cantidadNum rest">-</span>
+              <span class="cantidadNum">1</span>
+              <span class="cantidadNum sum">+</span>
+            </div>
+          </div>
+          <!-- cart Item  -->
+          <div class="cartItem">
+            <img src="/assets/img/aurisJaybird.png" alt="webcam" />
+            <div class="itemInfo">
+              <h3 class="itemTitle">Auriculares Jaybird</h3>
+              <p class="itemP">Precio:</p>
+              <span class="itemPrecio">$5000</span>
+            </div>
+            <div class="itemCantidad">
+              <span class="cantidadNum rest">-</span>
+              <span class="cantidadNum">1</span>
+              <span class="cantidadNum sum">+</span>
+            </div>
+          </div>
+          <!-- cart Item  -->
+          <div class="cartItem">
+            <img src="/assets/img/mouse Logi.png" alt="webcam" />
+            <div class="itemInfo">
+              <h3 class="itemTitle">Mouse Logitech</h3>
+              <p class="itemP">Precio:</p>
+              <span class="itemPrecio">$5000</span>
+            </div>
+            <div class="itemCantidad">
+              <span class="cantidadNum rest">-</span>
+              <span class="cantidadNum">1</span>
+              <span class="cantidadNum sum">+</span>
+            </div>
+          </div>
+          <!-- cart Item  -->
+          <div class="cartItem">
+            <img src="/assets/img/microBlue.png" alt="webcam" />
+            <div class="itemInfo">
+              <h3 class="itemTitle">Micrófono Blue</h3>
+              <p class="itemP">Precio:</p>
+              <span class="itemPrecio">$5000</span>
+            </div>
+            <div class="itemCantidad">
+              <span class="cantidadNum rest">-</span>
+              <span class="cantidadNum">1</span>
+              <span class="cantidadNum sum">+</span>
+            </div>
+          </div>
+          <!-- Divider  -->
+          <span class="divider"></span>
+          <!-- Cart Total  -->
+          <div class="cartTotal">
+            <p>Total:</p>
+            <span>$25000</span>
+          </div>
+          <!-- Boton Cart  -->
+          <button class="botonCart">Comprar</button>
+        </div>
+        <!-- fin del cart  -->
       </nav>
-      <img src="assets/img/pngegg.png" alt="carrito" class="carrito" />
     </header>
     <!-- hero -->
     <main>
+      <!-- Hero  -->
       <section class="hero">
         <div class="heroImg">
           <img src="/assets/img/fotologi.avif" alt="SetUp" />
@@ -44,7 +136,7 @@
             Logitech está para acompañarte en tu set up, para que disfrutes de una experiencia
             Única, Confortable y Premium. Tenemos Auriculares, Camaras Web, Mouse, Teclados,
             Microfonos, Parlantes y mucho más. Hacete parte de
-            <span>LOGI</span> y desbloquea una mejor Experiencia.
+            <span>Logitech G</span> para una mejor Experiencia.
           </p>
           <div class="botones">
             <a href="#" class="leerMas">Leer Más</a>
@@ -68,9 +160,43 @@
           <span>auriculares Deportivos</span>.
         </p>
       </section>
+      <!-- Nuestas Ventajas -->
+      <section class="sectionVentajas">
+        <h2>VENTAJAS LOGITECH G</h2>
+        <div class="contenedorVentajas">
+          <div class="ventajas">
+            <img src="/assets/img/ilustracion-uno.png" alt="ilustracion" />
+            <h3>Accesibilidad</h3>
+            <p>
+              Con accesibilidad nos referimos a que tenemos productos economicos de muy buena
+              calidad y productos de alta calidad a un precio razonable. Y todo esto a tu
+              disposición en un solo lugar.
+            </p>
+          </div>
+          <div class="ventajas">
+            <img src="/assets/img/ilustracion-dos.png" alt="ilustracion" />
+            <h3>Garantía</h3>
+            <p>
+              Para que todos nuestros clientes estén a gusto, tenemos una garantía (dependiendo el
+              valor del producto que haya elegido) que puede llegar a ser de 6 meses, 1 año y hasta
+              2 años.
+            </p>
+          </div>
+          <div class="ventajas">
+            <img src="/assets/img/ilustracion-tres.png" alt="ilustracion" />
+            <h3>Sé Parte</h3>
+            <p>
+              Sumate y animate a disfrutar de todos nuestros beneficios, marcas, productos y
+              enterate de las últimas novedades acerca de nuevos proyectos. Hacete parte de logitech
+              y disfrutá.
+            </p>
+          </div>
+        </div>
+      </section>
       <!-- Marcas -->
       <section class="sectionMarcas">
-        <h2>NUESTRAS MARCAS</h2>
+        <h2>TODAS NUESTRAS MARCAS</h2>
+        <!-- Marcas Cont  -->
         <div class="marcasCont">
           <div class="marcas">
             <img src="/assets/img/logitech-G-logo.png" alt="Logitech" />
@@ -82,6 +208,7 @@
             <img src="/assets/img/ultimate-ears-logo.jpg" alt="Ultimate Ears" />
           </div>
         </div>
+        <!-- Marcas Cont  -->
         <div class="marcasCont">
           <div class="marcas">
             <img src="/assets/img/Blue.png" alt="Blue" />
@@ -94,6 +221,21 @@
           </div>
         </div>
       </section>
+      <!-- footer  -->
+      <footer>
+        <h3>Contactanos</h3>
+        <p>instagram: <span> @logitechg</span></p>
+        <p>Twitter: <span> @logitechG</span></p>
+        <p class="soporteFooter">Soporte: <a href="#">https://support.logi.com/hc/es</a></p>
+        <div class="contenedorFooter">
+          <div class="logoFooter">
+            <img src="/assets/img/logitech-logo-dos.png" alt="Logitech Logo" />
+          </div>
+          <div class="logoFooter">
+            <img src="/assets/img/logitech-G-logo.png" alt=" Logitech G logo" />
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>

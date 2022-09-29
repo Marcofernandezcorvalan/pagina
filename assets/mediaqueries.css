@@ -1,13 +1,79 @@
 @media (max-width: 992px) {
 
+    header {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    /* nav  */
+
+    .nav {
+        gap: 20px;
+    }
+
+    /* navlist  */
+
     .navList {
+        position: absolute;
         margin-left: 0px;
+        top: 40px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        background: #373B44;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #030303, #185dca);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left,rgb(4, 4, 4),rgb(45, 27, 82),#09001b );/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        border: 2px solid rgb(116, 116, 116) ;
+        border-top: 0px;
+        border-radius: 0px 0px 10px 10px;
+        align-items: flex-start;
+        padding: 45px 30px;
+        gap: 20px;
+        z-index: 2;
+        display: none;
+    }
+
+    .navList a {
+        font-size: 15px;
 
     }
+
+    /* menu hamburguesa  */
+
+    .menuLabel {
+        display: flex;
+        cursor: pointer;
+        order: 2;
+        padding: 2px;
+        margin-right: 20px;
+    }
+
+    .menuLabel:hover {
+        transform:scaleY(1.2);
+        transition: all 0.3s ease-in;
+    }
+
+    .menuLabel img {
+        height: 20px;
+        width: 20px;
+    }
+
+    #menuToggle:checked + .navList {
+        display: flex;
+    }
+
+    /* carrito  */
 
     .carrito {
-        margin-right: 40px;
+        margin-right: 0px;
     }
+
+   
+    /* hero  */
 
     .hero {
         width: 100%;
@@ -25,7 +91,7 @@
     }
 
     .heroInfo h1{
-        width: 90%;
+        width: 80%;
         text-align: center;
         font-size: 30px;
         margin-bottom: 40px;
@@ -33,7 +99,7 @@
 
     .heroInfo p {
         width: 80%;
-        text-align: justify
+        text-align: justify;
     }
 
     .botones{
@@ -47,13 +113,15 @@
       display: none;
     }
 
+    /* info  */
+
     .info {
         width: 100%;
     }
 
-    .sectionMarcas {
-        width: 100%;
-    }
+
+    /* marcas  */
+
 
     .marcasCont {
         width: 100%;
@@ -71,31 +139,66 @@
 
 }
 
+        /* MEDIA 768  */
+
 @media (max-width: 768px) {
+
+    /* header  */
+
     header {
         padding: 0px;
     }
+
+    /* navlist  */
 
     .navList {
         gap: 30px;
     }
 
+    .sectionVentajas h2 {
+        font-size: 25px;
+    }
+
+    .contenedorVentajas {
+        flex-direction: column;
+        height: 40%;
+    }
+
+    .ventajas {
+        width: 50%;
+    }
+
+    .hero {
+        width: 100%;
+    }
+
+    /* marcas  */
+
+    .sectionMarcas{
+        margin: 0px 0px 100px 0px;
+    }
 
     .marcasCont {
         height: 200px;
     }
 
     .marcas {
-        height: 200px;
-        width: 180px;
+        height: 120%;
+        width: 25%;
     }  
     
     .marcas img {
-        height: 30%;
+        height: 50%;
+        width: 100%;
     }
 }
+        /* MEDIA 576  */
 
 @media (max-width: 576px) {
+
+
+
+    /* navlist  */
 
     .navList a {
         font-size: 10px;
@@ -105,30 +208,74 @@
         font-size: 11px;
     }
 
-    .info p {
+    /* Cart  */
+
+    .cart {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .cart h2 {
+        font-size: 20px;
+        margin: 50px 0px 0px 0px;
+
+    }
+
+    .cartItem {
+        height: 80px;
+        gap: 10px;
+        padding: 7px;
+    }
+
+    .itemInfo {
+        padding: 10px;
+        height: 100%;
+    }
+
+    .itemTitle {
+        font-size: 11px;
+    }
+
+    .itemP {
+        font-size: 10px;
+    }
+
+    .itemPrecio {
+        font-size: 12px;
+    }
+
+    .cantidadNum {
+        font-size: 12px;
+    }
+
+   .divider {
+    width: 100%;
+   }
+
+   
+
+    /* hero  */
+
+    .heroInfo h1 {
+        width: 60%;
+    }
+
+    /* info  */
+
+    .info {
         width: 110%;
     }
 
-    .sectionMarcas {
-        margin-top: 30px;
-        gap: 40px;
+    /* Ventajas  */
+
+    .ventajas p {
+        font-size: 10px;
     }
 
-    .marcasCont {
-        margin-top: 10px;
-        flex-direction: column;
-        gap: 10px;
-        height: 100px;
-        padding: 0px 40px 0px 40px;
+    footer {
+        margin-top: 80px;
     }
 
-    .marcas {
-        width: 30%;
-        border-radius:10px;
-    }
-
-    .marcas img {
-        width: 50%;
-        height: 40%;
-    }
 }
