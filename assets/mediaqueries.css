@@ -12,6 +12,7 @@
 
     .nav {
         gap: 20px;
+        
     }
 
     /* navlist  */
@@ -91,10 +92,11 @@
     }
 
     .heroInfo h1{
-        width: 80%;
+        width: 70%;
         text-align: center;
         font-size: 30px;
         margin-bottom: 40px;
+        min-width: none;
     }
 
     .heroInfo p {
@@ -147,6 +149,7 @@
 
     header {
         padding: 0px;
+        width: 100%;
     }
 
     /* navlist  */
@@ -165,7 +168,8 @@
     }
 
     .ventajas {
-        width: 60%;
+        width: 40%;
+        height: 250px;
     }
 
     .hero {
@@ -197,6 +201,7 @@
 
 @media (max-width: 576px) {
 
+   
 
 
     /* navlist  */
@@ -259,8 +264,14 @@
 
     /* hero  */
 
+    .info {
+        width: 100%;
+    }
+
     .heroInfo h1 {
-        width: 60%;
+        
+        font-size: 30px;
+        width: 90%;
     }
 
     /* info  */
@@ -269,14 +280,27 @@
         width: 110%;
     }
 
+    .info p {
+        font-size: 11px;
+    }
+
+    
+
     /* Ventajas  */
+
+    .ventajas {
+        width: 60%;
+    }
 
     .ventajas p {
         font-size: 10px;
     }
 
-    footer {
-        margin-top: 80px;
+    footer h3 {
+        font-size: 20px;
     }
 
+    footer p {
+        font-size: 10px;
+    }
 }
