@@ -1,8 +1,8 @@
 @media (max-width: 992px) {
 
-    header {
+    /* header {
         padding: 0px 10px 0px 10px;
-    }
+    } */
 
     .logo {
         margin-left: 10px;
@@ -277,7 +277,7 @@
     /* info  */
 
     .info {
-        width: 110%;
+        width: 100%;
     }
 
     .info p {
