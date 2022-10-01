@@ -116,6 +116,11 @@
         width: 100%;
     }
 
+    
+    .contenedorInfo p {
+        padding: 0px;
+    }
+
     /* marcas  */
 
 
@@ -150,9 +155,6 @@
         gap: 30px;
     }
 
-    .contenedorInfo p {
-        padding: 0px;
-    }
 
     /* Ventajas  */
 
