@@ -1,9 +1,5 @@
 @media (max-width: 992px) {
 
-    /* header {
-        padding: 0px 10px 0px 10px;
-    } */
-
     .logo {
         margin-left: 10px;
     }
@@ -72,7 +68,6 @@
     .carrito {
         margin-right: 0px;
     }
-
    
     /* hero  */
 
@@ -121,7 +116,6 @@
         width: 100%;
     }
 
-
     /* marcas  */
 
 
@@ -131,8 +125,6 @@
 
     .marcas {
        width: 25%;
-       /* justify-content: center;
-       align-items: center; */
     }
 
     .marcas img {
@@ -158,6 +150,12 @@
         gap: 30px;
     }
 
+    .contenedorInfo p {
+        padding: 0px;
+    }
+
+    /* Ventajas  */
+
     .sectionVentajas h2 {
         font-size: 25px;
     }
@@ -171,11 +169,6 @@
         width: 40%;
         height: 250px;
     }
-
-    .hero {
-        width: 100%;
-    }
-
 
     /* marcas  */
 
@@ -260,8 +253,6 @@
     width: 100%;
    }
 
-   
-
     /* hero  */
 
     .info {
@@ -274,6 +265,10 @@
         width: 90%;
     }
 
+    .heroInfo p {
+        font-size: 11px;
+    }
+
     /* info  */
 
     .info {
@@ -281,20 +276,45 @@
     }
 
     .info p {
-        font-size: 11px;
+        font-size: 10px;
     }
-
-    
 
     /* Ventajas  */
 
     .ventajas {
         width: 60%;
+        height: 300px;
     }
 
     .ventajas p {
         font-size: 10px;
     }
+
+    /* Marcas  */
+
+    .sectionMarcas{
+        width: 100%;
+        gap: 50px;
+    }
+
+    .marcasCont{
+        gap: 20px;
+       width: 100%;
+
+    }
+
+    .marcas {
+        height: 110%;
+        width: 32%;
+    }
+
+    .marcas img {
+        width: 115%;
+        height: 60%;
+
+    }
+
+    /* Footer  */
 
     footer h3 {
         font-size: 20px;
@@ -303,4 +323,6 @@
     footer p {
         font-size: 10px;
     }
+
+  
 }

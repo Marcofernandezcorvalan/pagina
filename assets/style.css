@@ -391,6 +391,15 @@ main {
     max-width: 1200px;
 }
 
+.contenedorInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    gap: 40px;
+}
+
 .info h2 {
     font-size: 25px;
     color: #d0d0d0;
@@ -507,7 +516,7 @@ main {
 
 .marcas:hover {
     transform:scale(1.1);
-    transition: all 0.5s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 .marcas img{
